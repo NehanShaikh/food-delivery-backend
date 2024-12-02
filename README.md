@@ -53,27 +53,3 @@ You can test your endpoints using tools like **Postman**, **curl**, or directly 
     "items": [1]  // Assumes item with ID 1 exists
   }
   ```
-
-7. Setting Up Auto-Reloading
-For easier development, install `nodemon` globally to automatically restart the server on code changes:
-```
-npm install -g nodemon
-```
-Run the app using:
-```
-nodemon app.js
-```
-
-8. Version Control with Git
-- Initialize Git: Run `git init` to start version control.
-- Create `.gitignore`: Add `node_modules/` to avoid committing dependencies.
-- Commit Your Code:
-  ```
-  git add .
-  git commit -m "Initial commit"
-  ```
-
-9. Future Enhancements
-Once the backend is functioning, consider:
-- Adding a Frontend: Use a framework like React, Angular, or Vue.js.
-- Deploying: Use platforms like Heroku, AWS, or Render to host your backend.
