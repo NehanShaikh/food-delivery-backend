@@ -35,7 +35,7 @@ Server running on http://localhost:3000
 
 6. Testing the API
 You can test your endpoints using tools like **Postman**, **curl**, or directly from a web browser. For instance:
-- **Adding a menu item**: Use `POST` with a body like:
+- Adding a menu item: Use `POST` with a body like:
   ```
   {
     "name": "Pizza",
