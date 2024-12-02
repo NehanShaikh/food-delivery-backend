@@ -19,7 +19,7 @@ Create the necessary folder structure as outlined below:
 
 4. Writing the Code
 - `app.js`: This is where you set up your Express server, import routes, and define middleware.
-- `routes/menu.js` and `routes/orders.js`**: These files define the API endpoints. Each route will be mapped to its respective controller function.
+- `routes/menu.js` and `routes/orders.js`: These files define the API endpoints. Each route will be mapped to its respective controller function.
 - Controllers: The `menuController.js` and `orderController.js` will contain functions like `addMenuItem`, `getMenu`, `placeOrder`, etc., handling the logic for processing data.
 - Models: These define the data structure for the menu and orders. They handle operations like adding or fetching items from in-memory storage or databases.
 - Utils: Include reusable helper functions like validation checks (e.g., ensuring prices are positive, categories are valid) and CRON job logic for updating order statuses.
